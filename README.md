@@ -1,6 +1,5 @@
-# Thesis_code_algorithms
 
-# Thesis Code and Algorithms
+# Thesis code 
 
 This repository contains the MATLAB and Python code developed as part of our thesis: **"Pattern Recognition Towards Early Detection of Diabetic Small-Fiber Neuropathy Using Optical Coherence Tomography Angiography."**
 
@@ -64,14 +63,26 @@ This project focuses on using pattern recognition and machine learning technique
 
 ---
 ## How to run 
+### Reticular plecus algorithm
+For the Reticular plecus algorithm, open the file "Reticular_plexus_MAIN.m "found at: 
+```
+├── Reticular plexus algorithm/         # Scripts for reticular plexus analysis
+│   └── Reticular_plexus_MAIN.m         # Main MATLAB script for reticular plexus algorithm
+```
 
-For the Reticular plecus algorithm only the path to the OCTA data(in DICOM format) needs to be changed to the data you want to process
+only the path to the OCTA data(in DICOM format) needs to be changed to the data you want to process
 ![image](https://github.com/user-attachments/assets/920854e4-056b-412d-91fb-0b23e0136ea2)
+### Papillary plexus algorithm
+For the papillary plexus algorithm you need to open the file "Papillary_plexus_MAIN.ipynb" found at: 
+```
+├── Papillary plexus algorithm/         # Scripts and data for papillary plexus analysis
+│   └── Papillary_plexus_MAIN.ipynb     # Main script for papillary plexus algorithm
+```
 
-For the papillary plexus algorithm you firstly need to run the "import packages" and "functions" blocks
+firstly need to run the "import packages" and "functions" blocks
 ![image](https://github.com/user-attachments/assets/80617e25-241b-4b89-b8cc-eade7e03298a)
 
-Then the path to the UNet model, OCTA data(in DICOM format) and OCTY data (also in DICOMO) needs to be changed to where you have stored them
+Then the path to the UNet model, OCTA data(in DICOM format) and OCTY data (also in DICOMO) needs to be changed to where you have stored them.
 Then run all sections 
 
 ---
